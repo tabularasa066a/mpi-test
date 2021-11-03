@@ -54,7 +54,7 @@ void dump(std::vector<double> &data)
 void fixed_temperature(std::vector<double> &lattice)
 {
   const double h = 0.01;
-  const double Q = 1.0;
+  const double Q = 1.0; // 単位時間の加熱量[J/s=W]
   for (int i = 0; i < STEP; i++)
   {
     // 計算カーネル呼び出し
@@ -74,7 +74,7 @@ void fixed_temperature(std::vector<double> &lattice)
 void uniform_heating(std::vector<double> &lattice)
 {
   const double h = 0.2;
-  const double Q = 1.0;
+  const double Q = 1.0; // 単位時間の加熱量[J/s=W]
   for (int i = 0; i < STEP; i++)
   {
     // 計算カーネル呼び出し
