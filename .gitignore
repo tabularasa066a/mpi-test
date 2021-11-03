@@ -1,0 +1,5 @@
+# a.outは挙げない
+*.out
+
+# temperature/*.dataは挙げない
+temperature/*.dat
