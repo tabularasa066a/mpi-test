@@ -18,7 +18,7 @@ int main(int argc, char **argv)
 
 2. `mpic++`でコンパイル
 ```bash
-mpig++ ./hello.cpp
+mpic++ ./hello.cpp
 ```
 
 3. `mpirun`コマンドで実行
